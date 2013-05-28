@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battleship</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_start">Start Game</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_highScore">High Scores</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_winner">Winner</string>
+    <string name="winnerText">You\'ve Won!</string>
+    <string name="yourScore">Your Score:</string>
+    <string name="back2main">Back to Main</string>
+    <string name="playAgain">Play Again</string>
+    <string name="time">Time</string>
+    <string name="highScore1">highScore1</string>
+    <string name="highScore2">highScore2</string>
+    <string name="highScore3">highScore3</string>
+    <string name="highScore4">highScore4</string>
+    <string name="highScore5">highScore5</string>
+    <string name="title_activity_high_scores">HighScores</string>
+    <string name="highScoreTile">High Scores</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="gameTitle">Battleship</string>
+
+</resources>

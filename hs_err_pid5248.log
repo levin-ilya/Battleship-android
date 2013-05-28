@@ -1,0 +1,106 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=5248, tid=1136
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_15-b03
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.7-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000000ede800):  JavaThread "Unknown thread" [_thread_in_vm, id=1136, stack(0x0000000002640000,0x0000000002740000)]
+
+Stack: [0x0000000002640000,0x0000000002740000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000000ede800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=1136, stack(0x0000000002640000,0x0000000002740000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.036 loading class 0x000000000278b0d0 done
+Event: 0.037 loading class 0x000000000278b3d0 done
+Event: 0.037 loading class 0x000000000278afe0
+Event: 0.037 loading class 0x00000000027929e0
+Event: 0.037 loading class 0x00000000027929e0 done
+Event: 0.037 loading class 0x00000000027927e0
+Event: 0.037 loading class 0x00000000027927e0 done
+Event: 0.038 loading class 0x0000000008a9d470
+Event: 0.038 loading class 0x0000000008a9d470 done
+Event: 0.038 loading class 0x000000000278afe0 done
+
+
+Dynamic libraries:
+0x000007f66df10000 - 0x000007f66df43000 	D:\Developer\adt-bundle-windows-x86_64-20130219\eclipse\jre\bin\javaw.exe
+0x000007ffcb1f0000 - 0x000007ffcb3ae000 	C:\windows\SYSTEM32\ntdll.dll
+0x000007ffc8820000 - 0x000007ffc8956000 	C:\windows\system32\KERNEL32.DLL
+0x000007ffc8280000 - 0x000007ffc8373000 	C:\windows\system32\KERNELBASE.dll
+0x000007ffca4d0000 - 0x000007ffca5ae000 	C:\windows\system32\ADVAPI32.dll
+0x000007ffc8660000 - 0x000007ffc87ac000 	C:\windows\system32\USER32.dll
+0x000007ffc5c50000 - 0x000007ffc5eb9000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.16384_none_418c2a697189c07f\COMCTL32.dll
+0x000007ffca930000 - 0x000007ffca9d5000 	C:\windows\system32\msvcrt.dll
+0x000007ffcad50000 - 0x000007ffcad98000 	C:\windows\SYSTEM32\sechost.dll
+0x000007ffca040000 - 0x000007ffca180000 	C:\windows\system32\RPCRT4.dll
+0x000007ffcaa30000 - 0x000007ffcab70000 	C:\windows\system32\GDI32.dll
+0x000007ffca8f0000 - 0x000007ffca929000 	C:\windows\system32\IMM32.DLL
+0x000007ffca5b0000 - 0x000007ffca6c5000 	C:\windows\system32\MSCTF.dll
+0x000000005ecd0000 - 0x000000005eda1000 	D:\Developer\adt-bundle-windows-x86_64-20130219\eclipse\jre\bin\msvcr100.dll
+0x000000005f070000 - 0x000000005f78f000 	D:\Developer\adt-bundle-windows-x86_64-20130219\eclipse\jre\bin\server\jvm.dll
+0x000007ffbd7e0000 - 0x000007ffbd7e9000 	C:\windows\SYSTEM32\WSOCK32.dll
+0x000007ffbfaa0000 - 0x000007ffbfac0000 	C:\windows\SYSTEM32\WINMM.dll
+0x000007ffcaf90000 - 0x000007ffcaf97000 	C:\windows\system32\PSAPI.DLL
+0x000007ffc8960000 - 0x000007ffc89b8000 	C:\windows\system32\WS2_32.dll
+0x000007ffbfa60000 - 0x000007ffbfa92000 	C:\windows\SYSTEM32\WINMMBASE.dll
+0x000007ffcaf80000 - 0x000007ffcaf89000 	C:\windows\system32\NSI.dll
+0x000000005f950000 - 0x000000005f95f000 	D:\Developer\adt-bundle-windows-x86_64-20130219\eclipse\jre\bin\verify.dll
+0x000000005f040000 - 0x000000005f068000 	D:\Developer\adt-bundle-windows-x86_64-20130219\eclipse\jre\bin\java.dll
+0x000000005f020000 - 0x000000005f035000 	D:\Developer\adt-bundle-windows-x86_64-20130219\eclipse\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:D:\Developer\adt-bundle-windows-x86_64-20130219\sdk\platforms\android-17\android.jar;D:\Users\Ilya\git\my-battleship-solitaire\Battleship2\libs\android-support-v4.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 55766 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames edu.harvard.ilevin.battleship2.BoardTest
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=D:/Developer/adt-bundle-windows-x86_64-20130219/eclipse/jre/bin/server;D:/Developer/adt-bundle-windows-x86_64-20130219/eclipse/jre/bin;D:/Developer/adt-bundle-windows-x86_64-20130219/eclipse/jre/lib/amd64;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Developer\adt-bundle-windows-x86_64-20130219\sdk\platform-tools;;D:\Developer\adt-bundle-windows-x86_64-20130219\eclipse;
+USERNAME=Ilya
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 4075260k(1043260k free), swap 7876348k(3425316k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.7-b01) for windows-amd64 JRE (1.7.0_15-b03), built on Feb 15 2013 13:43:57 by "java_re" with unknown MS VC++:1600
+
+time: Sun Mar 24 22:52:07 2013
+elapsed time: 0 seconds
+

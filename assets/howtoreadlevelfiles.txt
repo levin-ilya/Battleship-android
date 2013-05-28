@@ -1,0 +1,15 @@
+4 // fist is the board size
+
+3 // then is a list of positions where there are ship blocks
+4
+7
+8
+
+How is position calculator?
+Board position is the count from the top left starting at 0.
+For example a board size of 4 would look like this:
+0  1  2  3
+4  5  6  7 
+8  9  10 11
+12 13 14 15
+
